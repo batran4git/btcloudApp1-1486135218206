@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: btcloudApp1
+  host: btcloudApp1
+  disk_quota: 1024M
+  services:
+  - btcloudApp1-cloudantNoSQLDB
+  - btcloudApp1-iotf-service
